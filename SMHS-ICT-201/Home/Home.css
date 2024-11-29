@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url('finalll.png');
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+nav{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(189, 21, 21);
+    box-shadow: 0 0  5px 3px rgba(0,0,0,0.5);
+
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.title-container{
+    display: inline-block;
+    font-family: 'Lucida Sans';
+    position: relative;
+    margin: 0;
+    top: -13px;
+    left: 10px;
+    color: white;
+}
+ 
+.link-container{
+    float: right;
+    color: white;
+    top: 21px;
+    position: relative;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.link:hover{
+    color: red;
+}
+
+.login-container{
+    margin: 20px auto;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+
+.main-container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 250%;
+
+}

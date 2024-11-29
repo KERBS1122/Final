@@ -1,0 +1,115 @@
+body{
+    margin: 0 0;
+    background-image: url('../Home/finalll.png');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.link{
+    text-decoration: none;
+}
+
+nav{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(189, 21, 21);
+    box-shadow: 0 0  5px 3px rgba(0,0,0,0.5);
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+.title-container{
+    display: inline-block;
+    font-family: 'Lucida Sans';
+    position: relative;
+    margin: 0;
+    top: -13px;
+    left: 10px;
+    color: white;
+}
+ 
+.link-container{
+    float: right;
+    color: white;
+    top: 21px;
+    position: relative;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.link:hover{
+    color: red;
+}
+
+.contactbtn{
+    display: inline-block;
+    padding: 13x 40x;
+    background-color: rgba(189, 21, 21, 1);
+    font-weight: 600;
+    font-size: 10px;
+    color: whitesmoke;
+}
+.contactfield{
+   
+    margin: 20px auto;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.contactfield{
+    display: grid;   
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 40px; 
+}
+
+.contacttext{
+    text-align: center;
+}
+.contacttext h2{
+    
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.contacttext p{
+    font-size: 15px;
+    font-weight: 500;
+    color: red
+}
+
+.contacttext form{
+    position: bottom;
+   
+}
+
+.contacttext form input .contactbtn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    background: white;
+    color: brown;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 8px 25px;
+}
+
+.contacttext form input:first-child{
+    padding: 15px;
+    background-color: black;
+    font-size: 15px;
+    color: red;
+    border-radius: 5px;
+}

@@ -1,0 +1,128 @@
+body{
+    margin: 0 0;
+    background-image: url('../Home/finalll.png');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+nav{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(189, 21, 21);
+    box-shadow: 0 0  5px 3px rgba(0,0,0,0.5); 
+}
+
+.brand-container{
+    display: inline;
+}
+
+.link-container{
+    position: relative;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.link:hover{
+    color: red;
+}
+
+
+
+.login-container{
+    margin: 20px auto;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.title-container{
+    display: inline-block;
+    font-family: 'Lucida Sans';
+    position: relative;
+    margin: 0;
+    top: -13px;
+    left: 10px;
+    color: white;
+}
+.nav1{
+    display: block;
+    padding: 10px 10px;
+    background-color: rgb(189, 21, 21);
+    box-shadow: 0 0  5px 3px rgba(0,0,0,0.5);
+   
+   
+}
+.login-container{
+   
+    margin: 20px auto;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+    background-color: white;
+    border-radius: 5px;
+
+}
+.login-container :focus{
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+.btn{
+    
+    background-color: rgb(189, 21, 21);
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 45%;
+  opacity: 0.9;
+}
+.btn:hover {
+    opacity:1;
+  }
+
+.Signup{
+    
+    padding-right: 140px;
+}
+
+.Signup1{
+    padding-right: 130px;
+}
+.Sign{
+    padding-right: 115px; 
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    text-align: center;
+    background-color: rgb(189, 21, 21);
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
